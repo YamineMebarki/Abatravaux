@@ -6,7 +6,6 @@ body {
     display: inline-block;
     text-align:center;
     width: 180px;
-    margin: 10px 0;
     height: 150px;
     border-radius: 100px;
     border-bottom: 1px solid #988d7c;
@@ -16,6 +15,10 @@ body {
 #img {
     width: 100%;
     max-width: 100%;
+    height: auto;
+}
+.img-slide {
+    max-width: 50%;
     height: auto;
 }
 .title {
@@ -40,14 +43,7 @@ body {
 .footer {
     background-color: black;
 }
-.list {
-    display: inline-block;
-    float: left;
-    width: 430px;
-    margin-left: 11em;
-    color: black;
-    font-weight:bold;
-}
+
 .promo {
     font-size: 2em ;
     color: white;
@@ -63,6 +59,12 @@ body {
     -webkit-transform: rotate(-8deg);
     -khtml-transform: rotate(-8deg);
 }
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .img-slide {
+        width: 250px;
+        height: 250px;
+    }
+}
 @media screen and (max-width: 1243px) {
     #img {
         width: 50%;
@@ -71,29 +73,25 @@ body {
     }
     .bulle {
         display: inline-block;
-        text-align:center;
+        text-align: center;
         width: 180px;
-        margin: 10px 0;
         height: 150px;
         border-radius: 100px;
         border-bottom: 1px solid #988d7c;
-        box-shadow: 0 1px 8px rgba(255,255,255,1);
+        box-shadow: 0 1px 8px rgba(255, 255, 255, 1);
         overflow: hidden;
         margin-left: 4.5em;
-    }
-    .list {
-        font-size: 1.2em;
-        display: inline-block;
-        width: 430px;
-        margin-left: -6em;
     }
     li {
         margin-left: 5em;
     }
+
     .title {
         margin-top: -0em;
         font-size: 3em;
     }
+
     .sub-title {
         font-size: 1.5em;
     }
+}

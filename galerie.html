@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="assets/lib/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <title>A.B.A Travaux</title>
+    <style>
+        .bcontent {
+            margin-top: 10px;
+        }
+        .carousel-inner img {
+            max-width: 100%;
+            height: auto;
+        }
+        .title-spec{
+            font-family: 'Monoton', cursive;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        @media screen and (min-width: 200px) and (max-width: 400px){
+            .mv-r {
+                margin-left: 22%;
+            }
+            .carousel-inner img {
+                max-width: 100%;
+                height: auto;
+                opacity: 0.5;
+            }
+        }
+        @media screen and (min-width: 400px) and (max-width: 500px){
+            .mv-r {
+                margin-left: 28%;
+            }
+            .carousel-inner img {
+                max-width: 100%;
+                height: auto;
+                opacity: 0.5;
+            }
+        }
+        @media screen and (min-width: 500px) and (max-width: 700px){
+            .mv-r {
+                margin-left: 33%;
+            }
+        }
+        @media screen and (min-width: 700px) and (max-width: 900px){
+            .mv-r {
+                margin-left: 36%;
+            }
+        }
+        @media screen and (min-width: 900px) and (max-width: 1000px){
+            .mv-r {
+                margin-left: 38%;
+            }
+        }
+        @media screen and (min-width: 1000px) and (max-width: 1245px){
+            .mv-r {
+                margin-left: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <header>
+                <a href="index.html"><img src="assets/img/logo.png" class="img-thumbnail bulle shadow mv-r" /></a>
+                <h1 class="text-center title"><span class="title-spec">A.B.A</span> TRAVAUX</h1>
+                <hr/>
+                <div class="container-fluid  header">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h2 class="text-center sub-title">Maçonnerie - Couverture Zinguerie - Peinture intérieur / extérieur</h2>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <hr/>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="font-weight-bold text-center">Nos réalisations</h2>
+                        <hr/>
+                        <div id="carouselExample" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded" alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded" alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <hr/>
+                        <div id="carouselExample1" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample1" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample1" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample1" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                        <hr/>
+                        <div id="carouselExample2" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample2" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample2" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample2" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample3" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample3" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample3" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample3" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample4" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample4" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample4" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample4" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample4" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample5" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample5" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample5" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample5" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample6" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample6" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample6" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample6" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample6" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample7" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample7" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample7" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample7" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample7" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample8" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample8" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample8" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample8" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample8" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample9" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample9" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample9" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample9" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample9" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+                        <hr/>
+                        <div id="carouselExample10" class="carousel slide mt-3" data-ride="carousel">
+                            <!--Carousel Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExample10" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExample10" data-slide-to="1"></li>
+                            </ol>
+                            <!--Carousel Slides-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/DécapageAntiMousse(1).jpg" class="rounded"  alt="City">
+                                    <div class="carousel-caption">
+                                        <h5>Avant</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ToitureArdoiseFibro.jpg" class="rounded"  alt="Lake">
+                                    <div class="carousel-caption">
+                                        <h5>Aprés</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Carousel Previous Next Controls-->
+                            <a class="carousel-control-prev" href="#carouselExample10" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample10" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <footer>
+                <div class="container-fluid  footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="text-center mt-5" >
+                                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fabatravaux.000webhostapp.com%2F&layout=button&size=large&width=95&height=28&appId" width="95" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            </div>
+                            <h3 class="text-center sub-title">Artisan Boutard Ardon - <a href="tel:0648867767">06.48.86.77.67</a></h3>
+                            <h3 class="text-center sub-title">218, rue Arsène Houssaye - 02000 LAON - ARDON</h3>
+                            <h4 class="text-center"><a href="mailto:aba.travaux.couverture@gmail.com">a.b.a.travaux@contact.fr</a></h4>
+                            <hr/>
+                            <div class="text-center text-white-50">
+                                <p>n° SIRET : 441 222 445</p>
+                                <p>© A.B.A travaux.</p>
+                                <a href="#"><button type="button" class="btn btn shadow mb-5"><i class="fas fa-chevron-up"></i><br/>Remonter</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
