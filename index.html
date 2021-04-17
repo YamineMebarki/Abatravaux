@@ -40,6 +40,11 @@
                 height: auto;
                 opacity: 0.5;
             }
+            .list{
+                display:inline-block;
+                float: left;
+                margin-left: -20%;
+            }
         }
         @media screen and (min-width: 400px) and (max-width: 500px){
             .mv-r {
@@ -50,15 +55,30 @@
                 height: auto;
                 opacity: 0.5;
             }
+            .list{
+                display:inline-block;
+                float: left;
+                margin-left: -10%;
+            }
         }
         @media screen and (min-width: 500px) and (max-width: 700px){
             .mv-r {
                 margin-left: 33%;
             }
+            .list{
+                display:inline-block;
+                float: left;
+                margin-left: -10%;
+            }
         }
         @media screen and (min-width: 700px) and (max-width: 900px){
             .mv-r {
                 margin-left: 36%;
+            }
+            .list{
+                display:inline-block;
+                float: left;
+                margin-left: 10%;
             }
         }
         @media screen and (min-width: 900px) and (max-width: 1000px){
@@ -70,6 +90,11 @@
             .mv-r {
                 margin-left: 40%;
             }
+        }
+        .list{
+            display:inline-block;
+            float: left;
+            margin-left: 10%;
         }
     </style>
 </head>
@@ -169,17 +194,6 @@
                 <a href="galerie.html" style="text-decoration: none;"><span class="text-black-50 font-weight-bold"><button class="btn btn-secondary">Accèdez à notre galerie <i class="fas fa-external-link-alt"></i></button></span></a>
             </div>
             <hr/>
-            <div class="container mb-3 mt-3">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="center" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-                            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr/>
             <footer>
                 <div class="container-fluid  footer">
                     <div class="row">
@@ -204,18 +218,6 @@
     </div>
 </div>
 <script src="assets/js/script.js"></script>
-<script>(function () {
-    var setting = {"height":531,"width":803,"zoom":19,"queryString":"218 Rue Arsène Houssaye, Laon, France","place_id":"ChIJlcUH565M6EcRiNblJkIrWQM","satellite":true,"centerCoord":[49.54622791862384,3.630659950000008],"cid":"0x3592b4226e5d688","lang":"fr","cityUrl":"/france/laon-16867","cityAnchorText":"Carte de Laon, Picardie, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"459937"};
-    var d = document;
-    var s = d.createElement('script');
-    s.src = 'https://1map.com/js/script-for-user.js?embed_id=459937';
-    s.async = true;
-    s.onload = function (e) {
-        window.OneMap.initMap(setting)
-    };
-    var to = d.getElementsByTagName('script')[0];
-    to.parentNode.insertBefore(s, to);
-})();</script>
 </body>
 </html>
 
